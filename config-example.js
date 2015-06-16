@@ -8,7 +8,7 @@ var config = {
   token: 'XXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXX', // https://api.slack.com/web
   jira_urls: {
     // DEFAULT NODE IS REQUIRED.
-    "DEFAULT": {url: "https://default.jira.server/browse/"},
+    "DEFAULT": {url: 'https://default.jira.server/browse/'},
     // These should match projects from the projects property where you want to use a configuration other than the default
     "SOLR": {
       url: "https://issues.apache.org/jira/browse/",
@@ -23,7 +23,7 @@ var config = {
         strictSSL: true
       }
     },
-    "GRANT": {url:"http://grant.jira.server/jira/browse/"}
+    "GRANT": {url:'http://grant.jira.server/jira/browse/'}
   },
   search_cmd: "search",
   //Since search results can be verbose, you may not want to muddy the channel
